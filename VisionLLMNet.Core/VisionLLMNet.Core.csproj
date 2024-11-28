@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	  <PackageId>VisionLLMNet</PackageId>
+	  <Version>1.0.1</Version>
+	  <Authors>Hüseyin Çoraklı</Authors>
+	  <Product>VisionLLMNet</Product>
+	  <Description>LLMs perform operations using TogetherAI APIs.</Description>
+	  <PackageLicenseExpression>MIT</PackageLicenseExpression>
+	  <PackageTags>LLM;OCR;AI;ComputerVision;VisionModels;APIIntegration;ImageProcessing;TextExtraction;Markdown</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Configuration\**" />
+    <EmbeddedResource Remove="Configuration\**" />
+    <None Remove="Configuration\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="4.6.0" />
+  </ItemGroup>
+
+</Project>
