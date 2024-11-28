@@ -2,6 +2,12 @@
 
 VisionLLMNet is a .NET library for extracting text from images using LLMs and converting them to Markdown format.
 
+## Input(File or URL) & Output (Markdown)
+<p align="center">
+  <img src="input.jpg" >
+  <img src="_output.png" >
+</p>
+
 ## Features
 
 - Process images from local files or URLs
