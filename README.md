@@ -21,13 +21,13 @@ VisionLLMNet is a .NET package  for extracting text from images using LLMs and c
 Via NuGet Package Manager:
 
 ```bash
-NuGet\Install-Package VisionLLMNet -Version 1.0.1
+NuGet\Install-Package VisionLLMNet -Version 1.0.2
 ```
 
 Or using .NET CLI:
 
 ```bash
-dotnet add package VisionLLMNet --version 1.0.1
+dotnet add package VisionLLMNet --version 1.0.2
 ```
 
 ## Usage
